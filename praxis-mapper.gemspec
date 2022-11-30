@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
 
   spec.add_runtime_dependency(%q<randexp>, ["~> 0"])
-  spec.add_runtime_dependency(%q<sequel>, ["~> 4"])
+  spec.add_runtime_dependency(%q<sequel>, ["~> 5"])
   spec.add_runtime_dependency(%q<activesupport>, [">= 3"])
 
   spec.add_development_dependency('bundler', ['>= 1'])
